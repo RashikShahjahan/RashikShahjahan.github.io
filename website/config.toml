@@ -1,0 +1,64 @@
+## Basic Configuration
+
+	baseurl = "http://localhost:1313/hugo-goa-demo/"
+	builddrafts = false
+	canonifyurls = false
+	languagecode = "en-US"
+
+	contentdir = "content"
+	layoutdir = "layouts"
+	publishdir = "public"
+
+	author = "Rashik Shahjahan"
+	title = "Rashik Shahjahan"
+
+	theme = "goa"
+
+	## Hugo Built-in Features
+	#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+	#googleAnalytics = "XYZ"
+	enableRobotsTXT = true
+
+	## Site Settings
+	[params]
+	author = "Rashik Shahjahan"
+	intro = "Engineering Physics student @ McMaster University"
+	description = ""
+	authorimage = "headshot.jpg"
+	dateformat = "Jan 2, 2006"
+
+	## Site Meta Settings
+	[params.meta]
+	description = "Rashik Shahjahan's Personal Website"
+	keywords = "software,engineer,developer,programmer,security,open source,game engine"
+
+	## Social Accounts
+	[params.social]
+	github = "RashikShahjahan"
+	linkedin = "rashikshahjahan"
+	twitter = "ShahjahanRashik"
+	stackoverflow = "9476236/rashik"
+	email = "rashikshahjahan@pm.me"
+
+	## Extras
+	[params.extra]
+	copyright = "© 2018. Rashik Shahjahan. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+	poweredby = true
+	hightlightjs = true
+
+	## Main Menu
+	[[menu.main]]
+	    name = "resume"
+	    identifier = "resume"
+	    weight = 100
+	    url = "/resume.pdf"
+	[[menu.main]]
+	    name = "projects"
+	    identifier = "projects"
+	    weight = 200
+	    url = "/projects/"
+	[[menu.main]]
+	    name = "about"
+	    identifier = "about"
+	    weight = 300
+	    url = "/about/"
